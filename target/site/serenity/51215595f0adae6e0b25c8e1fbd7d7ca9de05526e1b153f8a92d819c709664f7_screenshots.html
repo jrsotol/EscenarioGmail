@@ -1,0 +1,204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="23b504076cd5b4d6ab17c91eb5e1119def3ba18787e95c603a266ddcef237c44.html">Revisar Bandeja De Salida</a></span>
+                > <span class="truncate-60"><a
+                    href="51215595f0adae6e0b25c8e1fbd7d7ca9de05526e1b153f8a92d819c709664f7.html">Revision de bandeja de salida </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 21-10-2019 17:45</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Revisar Bandeja De Salida </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                <pre><code>Como usuario web
+Quiero ingresar al correo de gmail
+A revisar mi bandeja de enviados
+</code></pre>
+
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="2f59df5a4feccefff541f3a3f0f19ff69082c3d3d406875b259415f1be4b0b57.html">Runnertags
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Revision de bandeja de salida
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="6317a3ff5a57ef34be945a841d5909539b870a458b507366233b5bcc0f5d6758.png" title="Dado que usuario quiere ingresar a su jrsotol@unal.edu.co gmail" width="1360"/>
+                <img src="22d66bbc74b3f9f16aa93ee354ee6b31b549967d076d7d1e69ac135d3081c993.png" title="Usuario opens the Gmail login page" width="1360"/>
+                <img src="abe8e2a92d065a7d5fdbbb54da7b7884665359273b8ba03915f650fb3810afbd.png" title="Usuario enters 'jrsotol@unal.edu.co' into casilla para ingresar correo" width="1360"/>
+                <img src="b18d4093156e0c1eea8975e973323b13583e47cccf391d9f0642c5e107c85ca6.png" title="Usuario clicks on El bot&oacute;n para continuar el proceso de logeo" width="1360"/>
+                <img src="67535791a1dfaf0619a4c440b7db93d6a89bcc2338e1f2568656deebf472faf5.png" title="Cuando el lo ingrese debera ingresar de nuevo su xkRG96dGFh y jrsotol" width="1360"/>
+                <img src="c344707d00b8a1f981f600cb287c9de40e02167b6d057a54341d67e384e2df45.png" title="Usuario enters 'jrsotol' into casilla para ingresar correo" width="1360"/>
+                <img src="e82b5d3a3dd1a7605a4e9fa373e7ad50bca9f0744d431cf7e95f9848a57abe76.png" title="Usuario enters 'xkRG96dGFh' into casilla para ingresar contrase&ntilde;a" width="1360"/>
+                <img src="1e777cb9e6ba4a0fcf5efcf58f9f102d78203cc1c831610f6238f1bf5c1b4f58.png" title="Usuario clicks on Boton para ingresar" width="1360"/>
+                <img src="f5970b8503c45a869aff0ac596b27d783083e4bfb07450dcc9d9d03b7d62ab1b.png" title="Usuario clicks on Bot&oacute;n para verificar cuenta" width="1360"/>
+                <img src="4ede84185442e49443187fe6bb59368031e9965c417823401c7df0e30fb51b37.png" title="Y dirigirse a la bandeja de correos enviados" width="1360"/>
+                <img src="3792ffb55f4f403cf99f348550fcadc1dc26641f45fed9e7dc086e47de3918cd.png" title="Usuario clicks on Bot&oacute;n de redactar mensaje " width="1360"/>
+                <img src="4ede84185442e49443187fe6bb59368031e9965c417823401c7df0e30fb51b37.png" title="Entonces el deberia ver el Mensaje nuevo de redactar mensaje" width="1360"/>
+                <img src="4ede84185442e49443187fe6bb59368031e9965c417823401c7df0e30fb51b37.png" title="Then la validacion should be 'Mensaje nuevo': <span class='success-color'>SUCCESS</span>" width="1360"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
